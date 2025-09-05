@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f2f5; /* facebookGray */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccd0d5; /* Lighter gray */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a9acb1; /* Even lighter gray on hover */
+}
